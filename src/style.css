@@ -1,1 +1,20 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+.card{
+    background: white;
+    width: 240px;
+    height: 340px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+}
+
+.heart{
+    color: red;
+    font-size: 40px;
+}
+
+.bottom{    
+    transform: rotate(180deg);
+}
+.number{
+    height: 260px;
+}
