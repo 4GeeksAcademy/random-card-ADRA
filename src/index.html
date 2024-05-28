@@ -16,14 +16,24 @@
     ></script>
     <link rel="stylesheet" href="src/style.css" />
   </head>
-  <body class="bg-success d-flex justify-content-center ">
-    <div class="card mt-2 ">
-      <i class="heart fa-solid fa-heart"> </i>
-      <div class="number d-flex justify-content-center align-items-center fs-1">
-        8
+  <body class="bg-success d-flex justify-content-center">
+    <div class="container-fluid">
+      <div class="card mt-2 ">
+        <i class="top p-0 heart"> </i>
+        <div
+          class="number d-flex justify-content-center align-items-center heart"
+        >
+          8
+        </div>
+        <i class="bottom p-0 heart"></i>
       </div>
-      <i class="heart fa-solid fa-heart bottom"></i>
+      <div class="button mt-2 heart">
+        <button type="button" class="randomButtom btn btn-secondary">
+          Random Card
+        </button>
+      </div>
     </div>
+    <script src="src/app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
