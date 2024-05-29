@@ -16,12 +16,15 @@ function randomCard() {
     document.querySelector(".top").classList.replace("spade", "heart");
     document.querySelector(".bottom").classList.replace("spade", "heart");
     document.querySelector(".number").classList.replace("spade", "heart");
+    document.querySelector(".color").classList.replace("black", "red");
   } else {
     document.querySelector(".top").classList.replace("heart", "spade");
-    document.querySelector(".bottom").classList.add("heart", "spade");
-    document.querySelector(".number").classList.add("heart", "spade");
+    document.querySelector(".bottom").classList.replace("heart", "spade");
+    document.querySelector(".number").classList.replace("heart", "spade");
+    document.querySelector(".color").classList.replace("red", "black");
   }
   document.querySelector(".top").innerHTML = `${suit}`;
   document.querySelector(".bottom").innerHTML = `${suit}`;
   document.querySelector(".number").innerHTML = `<p>${val}</p>`;
+  document.querySelector(".color").innerHTML = `${val} ${suit}`;
 }
